@@ -19,7 +19,6 @@
   font-family: "fontello";
   font-style: normal;
   font-weight: normal;
-  font-size: x-large;
 
   display: inline-block;
   text-decoration: inherit;
@@ -35,20 +34,10 @@
   /* fix buttons height, for twitter bootstrap */
   line-height: 1em;
 
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed */
-  margin-left: .2em;
-
   /* you can be more comfortable with increased icons size */
-  /* font-size: 120%; */
+  font-size: 130%;
 
-  /* Font smoothing. That was taken from TWBS */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-
-  /* Uncomment for 3D effect */
-  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 
-.icon-instagram:before { content: '\f16d'; } /* '' */
-.icon-facebook-squared:before { content: '\f308'; } /* '' */
+.icon-instagram:before { content: '\f16d'; }
+.icon-facebook-squared:before { content: '\f308'; }
