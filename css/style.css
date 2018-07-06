@@ -119,6 +119,34 @@ footer a {
   color: #333;
 }
 
+#credit {
+  float: right;
+  font-size: 0.9rem;
+  color: #626262;
+}
+
+#icon {
+  width: 70px;
+  padding: 5px;
+}
+
+.row {
+  align-items: center;
+}
+
+.column {
+  float: left;
+  width: 70px;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 /* Screen sizes 500px and up */
 
 @media(min-width: 500px) {
@@ -133,6 +161,13 @@ footer a {
 
   #landing-image {
     height: 100vh;
+  }
+
+  .column {
+    float: left;
+    width: 100px;
+    padding: 5px;
+    box-sizing: border-box;
   }
 }
 
