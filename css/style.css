@@ -125,17 +125,12 @@ footer a {
   color: #626262;
 }
 
-#icon {
-  width: 70px;
-  padding: 5px;
-}
-
 .row {
-  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
-.column {
-  float: left;
+.icon {
   width: 70px;
   padding: 5px;
 }
